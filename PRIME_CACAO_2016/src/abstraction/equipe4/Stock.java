@@ -18,15 +18,15 @@ public class Stock {
     	this.prod=p;
 
 	}
-
+	// getter du stock de cacao
 	public Indicateur getStockCacao() {
 		return this.stockCacao;
 	}
-
+	// getter des pertes de stock
 	public double getPerteStock() {
 		return this.perteStock;
 	}
-
+	// getter du producteur
 	public Producteur getProd() {
 		return this.prod;
 	}
