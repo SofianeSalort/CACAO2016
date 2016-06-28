@@ -67,7 +67,7 @@ public class Offre {
 			offre = this.venteAPriori()*(1+coeff/2);
 		}
 		//L'offre totale est comprise entre la moitie et le double de notre venteAPriori.
-		return offre;
+		return Math.min(this.getStock().getStockCacao().getValeur(), offre);
 	}
 
 }
